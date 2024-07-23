@@ -11,13 +11,18 @@ Kaggle SOCOFing Dataset Support: Designed to work seamlessly with the SOCOFing d
 # Requirements:
 
 Python 3.x
+
 OpenCV (cv2) library (install using pip3 install opencv-python)
 
 # Usage:
-Download the SOCOFing dataset from Kaggle.(https://www.kaggle.com/ruizgara/socofing)
+Download the SOCOFing dataset from Kaggle. (https://www.kaggle.com/ruizgara/socofing)
+
 Modify the fingerprint_path variable in the script to point to the directory containing your fingerprint images.
+
 Run the script: python main.py
+
 The program will prompt you to enter the path to a query fingerprint image.
+
 It will compare the query image to all other images in the dataset and display the fingerprint with the highest matching score.
 
 # Results:
